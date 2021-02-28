@@ -15,6 +15,8 @@
 An API Key is created for the API using a CLI tool in the api-key-auth folder
 In CLI, run:
 
+##### python api-credentials.py john.doe@email.com
+
 ### Database Schema
 
 ### Notes
