@@ -33,8 +33,6 @@ def create_api_credentials():
     # Hashing API credentials for the DB
     api_key = bcrypt.hashpw(api_key.encode("utf-8"), bcrypt.gensalt())
 
-    logger.info(f"API Key Hashed: {api_key}")
-
     api_credentials = Auth(
         client_email=client_email, api_key=api_key,
     )
@@ -47,4 +45,4 @@ def create_api_credentials():
 create_api_credentials()
 
 # Example in CLI
-# python credentials.py admin-stephen-sanwo stephen.sanwo@icloud.com admin
+# python credentials.py john.doe@email.com

@@ -4,10 +4,6 @@ from datetime import datetime
 
 import uuid
 
-id =
-print(id)
-breakpoint()
-
 connect("filed-audio-api-dev-db",
         host="localhost",
         port=27017)
@@ -47,11 +43,11 @@ class Podcast(Document):
     duration = IntField(required=True, min_value=0)
     uploaded_time = DateTimeField(default=datetime.utcnow)
     host = StringField(required=True, max_length=100)
-    participants = ListField(StringField(required=True, max_length=100))
+    participants = ListField(StringField(max_length=100))
 
     def podcast_data(self):
         podcast_dict = {
-            "name_of_song": self.name_of_song,
+            "name_of_podcast": self.name_of_podcast,
             "duration": self.duration,
             "uploaded_time": self.uploaded_time,
             "host": self.host,
