@@ -4,7 +4,6 @@ from utils import validators
 from database.AudioSchema import Audiobook, Song, Podcast
 import logging
 from mongoengine import *
-import uuid
 
 
 # Route Blueprint
@@ -62,6 +61,8 @@ def create():
             response['status'] = 200
             return make_response(jsonify(response), 200)
 
+            logger.info("Created new Song")
+
         except:
             abort(400, 'Invalid song metadata')
 
@@ -85,6 +86,7 @@ def create():
             response['data'] = (newPodcast.podcast_data())
             response['status'] = 200
             return make_response(jsonify(response), 200)
+            logger.info("Created new Podcast")
 
         except:
             abort(400, 'Invalid podcast metadata')
@@ -109,11 +111,11 @@ def create():
             response['data'] = (newAudiobook.audiobook_data())
             response['status'] = 200
             return make_response(jsonify(response), 200)
+            logger.info("Created new Audiobook")
 
         except:
             abort(400, 'Invalid audiobook metadata')
 
     else:
-        response['errors'] = "Provide a valid audio file type"
-        response['status'] = 400
-        return make_response(jsonify(response), 400)
+        logger.info("API returned a server error")
+        abort(500, 'Internal Server Error')

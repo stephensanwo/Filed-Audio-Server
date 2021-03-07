@@ -2,8 +2,6 @@ from mongoengine import *
 from datetime import datetime
 
 
-import uuid
-
 connect("filed-audio-api-dev-db",
         host="localhost",
         port=27017)
@@ -14,13 +12,13 @@ class Song(Document):
     Desc: Audio Schema for DB
     """
 
-    _id = IntField(uuid.uuid4().int >> 64)
     name_of_song = StringField(required=True, max_length=100)
     duration = IntField(required=True, min_value=0)
     uploaded_time = DateTimeField(default=datetime.utcnow)
 
     def song_data(self):
         song_dict = {
+            "id": str(self.id),
             "name_of_song": self.name_of_song,
             "duration": self.duration,
             "uploaded_time": self.uploaded_time,
@@ -38,7 +36,6 @@ class Podcast(Document):
     Desc: Podcast Schema for DB
     """
 
-    _id = IntField(uuid.uuid4().int >> 64)
     name_of_podcast = StringField(required=True, max_length=100)
     duration = IntField(required=True, min_value=0)
     uploaded_time = DateTimeField(default=datetime.utcnow)
@@ -47,6 +44,7 @@ class Podcast(Document):
 
     def podcast_data(self):
         podcast_dict = {
+            "id": str(self.id),
             "name_of_podcast": self.name_of_podcast,
             "duration": self.duration,
             "uploaded_time": self.uploaded_time,
@@ -66,7 +64,6 @@ class Audiobook(Document):
     Desc: Audiobook Schema for DB
     """
 
-    _id = IntField(uuid.uuid4().int >> 64)
     title_of_audiobook = StringField(required=True, max_length=100)
     author_of_title = StringField(required=True, max_length=100)
     narrator = StringField(required=True, max_length=100)
@@ -75,6 +72,7 @@ class Audiobook(Document):
 
     def audiobook_data(self):
         audiobook_dict = {
+            "id": str(self.id),
             "title_of_audiobook": self.title_of_audiobook,
             "author_of_title": self.author_of_title,
             "narrator": self.narrator,
