@@ -20,8 +20,7 @@ Three audio file types are supported:
 
 - clone the repository
 
-  ```
-  git clone >>>
+  ```git clone >>>
 
   ```
 
@@ -29,8 +28,7 @@ Three audio file types are supported:
 
 - Create a virtual environment
 
-  ```
-  python3.8 -m venv env
+  ```python3.8 -m venv env
 
   ```
 

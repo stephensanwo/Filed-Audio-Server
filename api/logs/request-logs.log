@@ -53,3 +53,7 @@
 2021-03-09 08:00:12,803 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 08:00:12] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6046f1766cecdd8f8d74d944 HTTP/1.1[0m" 400 -
 2021-03-09 08:00:30,529 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 08:00:30] "[37mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 200 -
 2021-03-09 08:00:38,722 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
+2021-03-09 08:10:21,893 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
+2021-03-09 12:51:53,786 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 12:51:53] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
+2021-03-09 15:34:19,343 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 15:34:19] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
+2021-03-09 15:34:32,101 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
