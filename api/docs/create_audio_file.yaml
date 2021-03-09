@@ -1,0 +1,17 @@
+Create audio files
+---
+tags:
+  - Create song file
+  - Create audiobook files
+  - Create podcast files
+
+responses:
+  200:
+    description: File successfully created
+
+  401:
+    description: Not authorized, user does not have permission to access this route
+
+security:
+  - Basic Auth:
+      api_key: apiKey

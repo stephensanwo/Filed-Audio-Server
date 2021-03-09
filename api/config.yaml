@@ -1,0 +1,20 @@
+audio-file-types:
+  - song
+  - podcast
+  - audiobook
+
+song_required_fields:
+  - name_of_song
+  - duration
+
+podcast_required_fields:
+  - name_of_podcast
+  - duration
+  - host
+  - participants
+
+audiobook_required_fields:
+  - title_of_audiobook
+  - author_of_title
+  - narrator
+  - duration

@@ -1,0 +1,55 @@
+2021-03-09 07:28:15,906 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py', reloading
+2021-03-09 07:29:27,590 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:29:27] "[35m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 500 -
+2021-03-09 07:29:57,894 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-09 07:30:00,742 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-09 07:30:17,330 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-09 07:33:35,770 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:34:12,060 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:34:17,660 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:34:28,557 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:34:33,346 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:34:50,359 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:35:36,887 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:35:36] "[35m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 500 -
+2021-03-09 07:35:50,865 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/api.py', reloading
+2021-03-09 07:36:17,052 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/api.py', reloading
+2021-03-09 07:37:25,610 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:37:57,181 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:37:57] "[35m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 500 -
+2021-03-09 07:40:19,560 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py', reloading
+2021-03-09 07:40:45,548 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:40:50,262 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:41:25,291 WARNING root: Inernal server error trying to access API: 127.0.0.1
+2021-03-09 07:41:25,293 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:41:25] "[35m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 500 -
+2021-03-09 07:41:50,833 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py', reloading
+2021-03-09 07:41:55,790 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:41:55] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
+2021-03-09 07:42:04,684 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:42:04] "[35m[1mPOST /api/v1/create HTTP/1.1[0m" 500 -
+2021-03-09 07:42:12,289 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-09 07:42:12,300 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:42:12] "[31m[1mPOST /api/v1/create HTTP/1.1[0m" 401 -
+2021-03-09 07:45:01,857 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:46:18,382 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:46:40,416 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:46:46,109 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-09 07:52:42,398 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:52:42] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
+2021-03-09 07:53:32,121 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-09 07:54:15,413 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:54:46,009 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:54:46] "[31m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 400 -
+2021-03-09 07:55:01,535 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:55:04,954 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:55:04] "[31m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 400 -
+2021-03-09 07:55:26,406 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/configs.py', reloading
+2021-03-09 07:56:24,256 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:56:25,739 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:56:25] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
+2021-03-09 07:56:54,514 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:56:54] "[31m[1mGET /api/v1/get_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 400 -
+2021-03-09 07:57:03,443 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:57:03] "[31m[1mGET /api/v1/get_audio_file?audioFileType=audiobook&audioFileID=60470a48b95704ef06d9925b HTTP/1.1[0m" 400 -
+2021-03-09 07:57:16,243 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:57:16] "[37mGET /api/v1/get_audio_file?audioFileType=podcast&audioFileID=60470a48b95704ef06d9925b HTTP/1.1[0m" 200 -
+2021-03-09 07:57:24,801 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
+2021-03-09 07:57:51,562 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/configs.py', reloading
+2021-03-09 07:57:58,261 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/configs.py', reloading
+2021-03-09 07:58:19,290 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
+2021-03-09 07:59:06,267 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:59:06] "[37mGET /api/v1/get_audio_file?audioFileType=podcast&audioFileID=60470a48b95704ef06d9925b HTTP/1.1[0m" 200 -
+2021-03-09 07:59:10,692 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:59:10] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
+2021-03-09 07:59:15,256 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
+2021-03-09 07:59:22,472 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:59:22] "[37mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 200 -
+2021-03-09 07:59:26,063 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
+2021-03-09 07:59:47,375 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
+2021-03-09 08:00:12,803 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 08:00:12] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6046f1766cecdd8f8d74d944 HTTP/1.1[0m" 400 -
+2021-03-09 08:00:30,529 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 08:00:30] "[37mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 200 -
+2021-03-09 08:00:38,722 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading

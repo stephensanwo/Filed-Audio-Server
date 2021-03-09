@@ -68,7 +68,12 @@ python api-credentials.py john.doe@email.com
 
 ```
 
-### Event Logging
+### Application Monitoring
+
+Warning and Error logs are collected and stored in request-logs.log file for application monitoring. Typical flags monitored include:
+
+- Database connection offline, or Internal server errors
+- Unauthorized user trying to access a restricted route (provides the IP)
 
 ### Application Features:
 
