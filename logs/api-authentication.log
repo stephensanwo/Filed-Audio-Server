@@ -651,3 +651,130 @@ INFO 2021-03-07 22:21:33,906  * Detected change in '/Users/stephensanwo/Document
 INFO 2021-03-07 22:21:34,375  * Restarting with stat
 INFO 2021-03-07 22:21:48,303 127.0.0.1 - - [07/Mar/2021 22:21:48] "[31m[1mGET /get_audio_file?audioFileType=audiobook&audioFileID=604516fd2c46429f6cd7f4a8 HTTP/1.1[0m" 400 -
 INFO 2021-03-07 22:21:59,866 127.0.0.1 - - [07/Mar/2021 22:21:59] "[37mGET /get_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 200 -
+INFO 2021-03-07 23:36:15,084  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/database/AudioSchema.py', reloading
+INFO 2021-03-07 23:36:15,579  * Restarting with stat
+INFO 2021-03-08 00:33:05,647  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/query.py', reloading
+INFO 2021-03-08 00:33:06,228  * Restarting with stat
+INFO 2021-03-08 20:49:06,510  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/query.py', reloading
+INFO 2021-03-08 20:49:06,728  * Restarting with stat
+INFO 2021-03-08 20:50:21,551 127.0.0.1 - - [08/Mar/2021 20:50:21] "[31m[1mGET /get_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 400 -
+INFO 2021-03-08 20:50:47,865 127.0.0.1 - - [08/Mar/2021 20:50:47] "[37mGET /get_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 03:42:14,266  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api.py', reloading
+INFO 2021-03-09 03:42:14,794  * Restarting with stat
+INFO 2021-03-09 04:09:23,318  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:09:23,399  * Restarting with stat
+INFO 2021-03-09 04:10:32,679  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:10:32,788  * Restarting with stat
+INFO 2021-03-09 04:11:47,047  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:11:47,494  * Restarting with stat
+INFO 2021-03-09 04:12:56,692  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:12:57,164  * Restarting with stat
+INFO 2021-03-09 04:13:27,922  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:13:28,215  * Restarting with stat
+INFO 2021-03-09 04:13:59,938  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:14:00,249  * Restarting with stat
+INFO 2021-03-09 04:14:47,328 127.0.0.1 - - [09/Mar/2021 04:14:47] "[35m[1mGET /get_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 500 -
+INFO 2021-03-09 04:15:05,525 127.0.0.1 - - [09/Mar/2021 04:15:05] "[37mGET /get_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:15:06,298  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api.py', reloading
+INFO 2021-03-09 04:15:06,370  * Restarting with stat
+INFO 2021-03-09 04:15:43,530 127.0.0.1 - - [09/Mar/2021 04:15:43] "[35m[1mPOST /update_audio_file?audioFileType=song&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 500 -
+INFO 2021-03-09 04:16:12,546  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:16:12,641  * Restarting with stat
+INFO 2021-03-09 04:16:14,655 127.0.0.1 - - [09/Mar/2021 04:16:14] "[35m[1mPOST /update_audio_file?audioFileType=song&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 500 -
+INFO 2021-03-09 04:16:59,505  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:16:59,675  * Restarting with stat
+INFO 2021-03-09 04:18:12,856  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:18:13,359  * Restarting with stat
+INFO 2021-03-09 04:18:39,048  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:18:39,460  * Restarting with stat
+INFO 2021-03-09 04:18:41,097 127.0.0.1 - - [09/Mar/2021 04:18:41] "[31m[1mPOST /update_audio_file?audioFileType=song&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 400 -
+INFO 2021-03-09 04:19:12,981 127.0.0.1 - - [09/Mar/2021 04:19:12] "[37mPOST /update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:19:24,841 127.0.0.1 - - [09/Mar/2021 04:19:24] "[37mPOST /update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:20:25,080  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/create.py', reloading
+INFO 2021-03-09 04:20:25,290  * Restarting with stat
+INFO 2021-03-09 04:39:11,409  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:39:11,936  * Restarting with stat
+INFO 2021-03-09 04:39:53,818  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:39:54,071  * Restarting with stat
+INFO 2021-03-09 04:41:04,185  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:41:04,253  * Restarting with stat
+INFO 2021-03-09 04:41:14,640  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:41:15,120  * Restarting with stat
+INFO 2021-03-09 04:42:57,675  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:42:57,976  * Restarting with stat
+INFO 2021-03-09 04:43:24,564  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:43:24,937  * Restarting with stat
+INFO 2021-03-09 04:43:37,385  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:43:37,845  * Restarting with stat
+INFO 2021-03-09 04:43:49,355  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:43:49,881  * Restarting with stat
+INFO 2021-03-09 04:44:37,830  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:44:38,035  * Restarting with stat
+INFO 2021-03-09 04:44:47,494  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:44:47,538  * Restarting with stat
+INFO 2021-03-09 04:46:30,631 127.0.0.1 - - [09/Mar/2021 04:46:30] "[37mPOST /update_audio_file?audioFileType=podcast&audioFileID=604516fd2c46429f6cd7f4a8 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:46:39,440 127.0.0.1 - - [09/Mar/2021 04:46:39] "[37mPOST /update_audio_file?audioFileType=podcast&audioFileID=604516fd2c46429f6cd7f4a8 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:46:46,189 127.0.0.1 - - [09/Mar/2021 04:46:46] "[37mPOST /update_audio_file?audioFileType=podcast&audioFileID=604516fd2c46429f6cd7f4a8 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:48:33,021 127.0.0.1 - - [09/Mar/2021 04:48:33] "[37mPOST /update_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:50:01,129 API returned a server error
+INFO 2021-03-09 04:50:01,133 127.0.0.1 - - [09/Mar/2021 04:50:01] "[35m[1mPOST /update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 500 -
+INFO 2021-03-09 04:50:28,509 127.0.0.1 - - [09/Mar/2021 04:50:28] "[37mPOST /update_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:50:46,041 127.0.0.1 - - [09/Mar/2021 04:50:46] "[37mPOST /update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:50:50,186 127.0.0.1 - - [09/Mar/2021 04:50:50] "[37mPOST /update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:50:53,855 127.0.0.1 - - [09/Mar/2021 04:50:53] "[37mPOST /update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:51:34,208 127.0.0.1 - - [09/Mar/2021 04:51:34] "[37mPOST /update_audio_file?audioFileType=podcast&audioFileID=604516fd2c46429f6cd7f4a8 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:52:14,582 127.0.0.1 - - [09/Mar/2021 04:52:14] "[37mPOST /update_audio_file?audioFileType=podcast&audioFileID=604516fd2c46429f6cd7f4a8 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:52:46,769  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:52:47,275  * Restarting with stat
+INFO 2021-03-09 04:53:00,168 127.0.0.1 - - [09/Mar/2021 04:53:00] "[35m[1mPOST /update_audio_file?audioFileType=podcast&audioFileID=604516fd2c46429f6cd7f4a8 HTTP/1.1[0m" 500 -
+INFO 2021-03-09 04:53:06,891  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:53:07,325  * Restarting with stat
+INFO 2021-03-09 04:54:30,286 127.0.0.1 - - [09/Mar/2021 04:54:30] "[37mPOST /create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:55:24,188 127.0.0.1 - - [09/Mar/2021 04:55:24] "[37mPOST /update_audio_file?audioFileType=song&audioFileID=6046f1766cecdd8f8d74d944 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:56:48,468  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:56:48,890  * Restarting with stat
+INFO 2021-03-09 04:56:58,363  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 04:56:58,896  * Restarting with stat
+INFO 2021-03-09 04:57:16,864 127.0.0.1 - - [09/Mar/2021 04:57:16] "[37mPOST /create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:57:35,340 127.0.0.1 - - [09/Mar/2021 04:57:35] "[37mPOST /update_audio_file?audioFileType=song&audioFileID=6046f1766cecdd8f8d74d944 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:57:58,998 127.0.0.1 - - [09/Mar/2021 04:57:58] "[37mPOST /update_audio_file?audioFileType=podcast&audioFileID=604516fd2c46429f6cd7f4a8 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:58:34,136 127.0.0.1 - - [09/Mar/2021 04:58:34] "[37mPOST /create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:58:42,101 127.0.0.1 - - [09/Mar/2021 04:58:42] "[37mPOST /create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 04:59:36,822 127.0.0.1 - - [09/Mar/2021 04:59:36] "[31m[1mPOST /update_audio_file?audioFileType=podcast&audioFileID=604516fd2c46429f6cd7f4a8 HTTP/1.1[0m" 400 -
+INFO 2021-03-09 05:00:59,761 127.0.0.1 - - [09/Mar/2021 05:00:59] "[37mPOST /update_audio_file?audioFileType=podcast&audioFileID=6046f26a4b09a4463e43742e HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:01:39,857 127.0.0.1 - - [09/Mar/2021 05:01:39] "[37mPOST /create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:04:47,355 127.0.0.1 - - [09/Mar/2021 05:04:47] "[37mPOST /update_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:28:05,485  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api.py', reloading
+INFO 2021-03-09 05:28:05,869  * Restarting with stat
+INFO 2021-03-09 05:33:07,128  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 05:33:07,428  * Restarting with stat
+INFO 2021-03-09 05:33:16,865  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 05:33:17,383  * Restarting with stat
+INFO 2021-03-09 05:34:27,463  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/delete.py', reloading
+INFO 2021-03-09 05:34:27,972  * Restarting with stat
+INFO 2021-03-09 05:35:54,408  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/delete.py', reloading
+INFO 2021-03-09 05:35:54,852  * Restarting with stat
+INFO 2021-03-09 05:36:16,852 127.0.0.1 - - [09/Mar/2021 05:36:16] "[37mPOST /create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:36:20,424 127.0.0.1 - - [09/Mar/2021 05:36:20] "[37mPOST /create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:36:23,867 127.0.0.1 - - [09/Mar/2021 05:36:23] "[37mPOST /create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:37:23,679 127.0.0.1 - - [09/Mar/2021 05:37:23] "[37mPOST /delete_audio_file?audioFileType=song&audioFileID=6046f1766cecdd8f8d74d944 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:38:40,839 127.0.0.1 - - [09/Mar/2021 05:38:40] "[37mPOST /delete_audio_file?audioFileType=podcast&audioFileID=6046f2724b09a4463e43742f HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:39:36,760 127.0.0.1 - - [09/Mar/2021 05:39:36] "[37mPOST /delete_audio_file?audioFileType=audiobook&audioFileID=6046f3234b09a4463e437430 HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:40:27,192 127.0.0.1 - - [09/Mar/2021 05:40:27] "[37mPOST /create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:40:35,833 127.0.0.1 - - [09/Mar/2021 05:40:35] "[33mPOST /api/v1/create HTTP/1.1[0m" 404 -
+INFO 2021-03-09 05:40:40,822  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/create.py', reloading
+INFO 2021-03-09 05:40:41,196  * Restarting with stat
+INFO 2021-03-09 05:40:44,495 127.0.0.1 - - [09/Mar/2021 05:40:44] "[35m[1mPOST /api/v1/create HTTP/1.1[0m" 500 -
+INFO 2021-03-09 05:40:52,762  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/create.py', reloading
+INFO 2021-03-09 05:40:53,294  * Restarting with stat
+INFO 2021-03-09 05:40:54,865 127.0.0.1 - - [09/Mar/2021 05:40:54] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:41:40,146  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/query.py', reloading
+INFO 2021-03-09 05:41:40,336  * Restarting with stat
+INFO 2021-03-09 05:41:49,744  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/create.py', reloading
+INFO 2021-03-09 05:41:50,228  * Restarting with stat
+INFO 2021-03-09 05:42:13,811  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/update.py', reloading
+INFO 2021-03-09 05:42:14,215  * Restarting with stat
+INFO 2021-03-09 05:42:22,616  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/routes/delete.py', reloading
+INFO 2021-03-09 05:42:23,086  * Restarting with stat
+INFO 2021-03-09 05:42:49,821 127.0.0.1 - - [09/Mar/2021 05:42:49] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
+INFO 2021-03-09 05:42:58,781 127.0.0.1 - - [09/Mar/2021 05:42:58] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -

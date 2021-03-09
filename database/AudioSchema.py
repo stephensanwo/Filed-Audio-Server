@@ -25,6 +25,18 @@ class Song(Document):
         }
         return song_dict
 
+    def get_all_songs():
+        pass
+
+    def get_song():
+        pass
+
+    def update_song():
+        pass
+
+    def delete_song():
+        pass
+
     meta = {
         "indexes": ["name_of_song"],
         "ordering": ['-uploaded_time']

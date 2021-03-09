@@ -16,7 +16,7 @@ logging.basicConfig(filename="./logs/requests.log",
 
 logger = logging.getLogger()
 
-# @route   POST /create
+# @route   POST /api/v1/create
 # @desc    Create new audio file (Song, Podcast, Audiobook)
 # @access  Private
 # @params  audioFileType, audioFileMatadata
@@ -24,7 +24,7 @@ logger = logging.getLogger()
 # @require_apikey
 
 
-@create_blueprint.route("/create", methods=["POST"])
+@create_blueprint.route("/api/v1/create", methods=["POST"])
 def create():
     response = {"errors": {}, "data": {}, "status": ""}
 

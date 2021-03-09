@@ -21,13 +21,13 @@ logging.basicConfig(filename="./logs/requests.log",
 
 logger = logging.getLogger()
 
-# @route   GET /get_audio_files
+# @route   GET /api/v1/get_audio_files
 # @desc    Get all audio files of specific type from database (Song, Podcast, Audiobook)
 # @access  Public
 # @params  audioFileType
 
 
-@query_blueprint.route("/get_audio_files", methods=["GET"])
+@query_blueprint.route("/api/v1/get_audio_files", methods=["GET"])
 def get_audio_files():
     # Validate request parameters
     response = {"errors": {}, "data": {}, "status": ""}
@@ -100,13 +100,13 @@ def get_audio_files():
                 abort(500, 'Internal Server Error')
 
 
-# @route   GET /get_audio_file
+# @route   GET /api/v1/get_audio_file
 # @desc    Get specific audio file of specific type from database (Song, Podcast, Audiobook) by ID
 # @access  Public
 # @params  audioFileType, audioFileID
 
 
-@query_blueprint.route("/get_audio_file", methods=["GET"])
+@query_blueprint.route("/api/v1/get_audio_file", methods=["GET"])
 def get_audio_file():
     # Validate request parameters
     response = {"errors": {}, "data": {}, "status": ""}
