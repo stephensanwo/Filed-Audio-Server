@@ -65,18 +65,13 @@ def update_audio_file():
             return make_response(jsonify(response), 400)
 
         try:
-            # Find song if it exists
-            song = Song.objects(id=fileID).get()
-            song.update(
-                name_of_song=audioFileMetadata['name_of_song'], duration=audioFileMetadata['duration']
-            )
-            song.reload()
-
-            response['data'] = (song.song_data())
+            songDB = Song()
+            response['data'] = songDB.update_song(fileID,
+                                                  audioFileMetadata['name_of_song'], audioFileMetadata['duration'])
             response['status'] = 200
             return make_response(jsonify(response), 200)
 
-        except DoesNotExist:
+        except:
             response['errors'] = "Invalid song metadata"
             response['status'] = 400
             return make_response(jsonify(response), 400)
@@ -91,21 +86,14 @@ def update_audio_file():
             return make_response(jsonify(response), 400)
 
         try:
-            # Find podcast if it exists
-            podcast = Podcast.objects(id=fileID).get()
-            podcast.update(
-                name_of_podcast=audioFileMetadata['name_of_podcast'],
-                duration=audioFileMetadata['duration'],
-                host=audioFileMetadata['host'],
-                participants=audioFileMetadata['participants']
-            )
-            podcast.reload()
-
-            response['data'] = (podcast.podcast_data())
+            # Find podcast if it exist
+            podcastDB = Podcast()
+            response['data'] = podcastDB.update_podcast(fileID,
+                                                        audioFileMetadata['name_of_podcast'], audioFileMetadata['duration'], audioFileMetadata['host'], audioFileMetadata['participants'])
             response['status'] = 200
             return make_response(jsonify(response), 200)
 
-        except DoesNotExist:
+        except:
             response['errors'] = "Invalid podcast metadata"
             response['status'] = 400
             return make_response(jsonify(response), 400)
@@ -121,20 +109,13 @@ def update_audio_file():
 
         try:
             # Find audiobook if it exists
-            audiobook = Audiobook.objects(id=fileID).get()
-            audiobook.update(
-                title_of_audiobook=audioFileMetadata['title_of_audiobook'],
-                author_of_title=audioFileMetadata['author_of_title'],
-                narrator=audioFileMetadata['narrator'],
-                duration=audioFileMetadata['duration']
-            )
-            audiobook.reload()
-
-            response['data'] = (audiobook.audiobook_data())
+            audiobookDB = Audiobook()
+            response['data'] = audiobookDB.update_audiobook(fileID,
+                                                            audioFileMetadata['title_of_audiobook'], audioFileMetadata['author_of_title'], audioFileMetadata['narrator'], audioFileMetadata['duration'])
             response['status'] = 200
             return make_response(jsonify(response), 200)
 
-        except DoesNotExist:
+        except:
             response['errors'] = "Invalid audiobook metadata"
             response['status'] = 400
             return make_response(jsonify(response), 400)

@@ -42,31 +42,24 @@ def delete_audio_file():
 
     if fileType == "song":
         try:
-            # Find song if it exists
-            song = Song.objects(id=fileID).get()
-            song.delete()
-
-            response['message'] = (f"Song with ID: {fileID} deleted")
+            songDB = Song()
+            response['message'] = songDB.delete_song(fileID)
             response['status'] = 200
             return make_response(jsonify(response), 200)
 
-        except DoesNotExist:
+        except:
             response['errors'] = "Invalid song metadata"
             response['status'] = 400
             return make_response(jsonify(response), 400)
 
     elif fileType == "podcast":
-
         try:
-            # Find podcast if it exists
-            podcast = Podcast.objects(id=fileID).get()
-            podcast.delete()
-
-            response['message'] = (f"Podcast with ID: {fileID} deleted")
+            podcastDB = Podcast()
+            response['message'] = podcastDB.delete_podcast(fileID)
             response['status'] = 200
             return make_response(jsonify(response), 200)
 
-        except DoesNotExist:
+        except:
             response['errors'] = "Invalid podcast metadata"
             response['status'] = 400
             return make_response(jsonify(response), 400)
@@ -74,17 +67,13 @@ def delete_audio_file():
             return make_response(jsonify(response), 400)
 
     elif fileType == "audiobook":
-
         try:
-            # Find audiobook if it exists
-            audiobook = Audiobook.objects(id=fileID).get()
-            audiobook.delete()
-
-            response['message'] = (f"Audiobook with ID: {fileID} deleted")
+            audiobookDB = Audiobook()
+            response['message'] = audiobookDB.delete_audiobook(fileID)
             response['status'] = 200
             return make_response(jsonify(response), 200)
 
-        except DoesNotExist:
+        except:
             response['errors'] = "Invalid audiobook metadata"
             response['status'] = 400
             return make_response(jsonify(response), 400)

@@ -42,17 +42,12 @@ def create():
             response['status'] = 400
             return make_response(jsonify(response), 400)
 
-        newSong = Song(
-            name_of_song=audioFileMetadata['name_of_song'],
-            duration=audioFileMetadata['duration']
-        )
-
         try:
-            newSong.save()
-            response['data'] = (newSong.song_data())
+            songDB = Song()
+            response['data'] = songDB.create_song(
+                audioFileMetadata['name_of_song'], audioFileMetadata['duration'])
             response['status'] = 200
             return make_response(jsonify(response), 200)
-
         except:
             abort(400, 'Invalid song metadata')
 
@@ -64,16 +59,10 @@ def create():
             response['status'] = 400
             return make_response(jsonify(response), 400)
 
-        newPodcast = Podcast(
-            name_of_podcast=audioFileMetadata['name_of_podcast'],
-            duration=audioFileMetadata['duration'],
-            host=audioFileMetadata['host'],
-            participants=audioFileMetadata['participants']
-        )
-
         try:
-            newPodcast.save()
-            response['data'] = (newPodcast.podcast_data())
+            podcastDB = Podcast()
+            response['data'] = podcastDB.create_podcast(
+                audioFileMetadata['name_of_podcast'], audioFileMetadata['duration'], audioFileMetadata['host'], audioFileMetadata['participants'])
             response['status'] = 200
             return make_response(jsonify(response), 200)
 
@@ -96,8 +85,9 @@ def create():
         )
 
         try:
-            newAudiobook.save()
-            response['data'] = (newAudiobook.audiobook_data())
+            audiobookDB = Audiobook()
+            response['data'] = audiobookDB.create_audiobook(
+                audioFileMetadata['title_of_audiobook'], audioFileMetadata['author_of_title'], audioFileMetadata['narrator'], audioFileMetadata['duration'])
             response['status'] = 200
             return make_response(jsonify(response), 200)
 

@@ -1,0 +1,20 @@
+Delete audio files
+---
+routes:
+  Delete song file: /api/v1/delete_audio_file?audioFileType=song&audioFileID=<audioFileID>
+
+  Delete audiobook file: /api/v1/delete_audio_file?audioFileType=audiobook&audioFileID=<audioFileID>
+
+  Delete podcast file: /api/v1/delete_audio_file?audioFileType=podcast&audioFileID=<audioFileID>
+
+responses:
+  200:
+    description: Query successful
+
+  401:
+    description: Not authorized, user does not have permission to access this route
+
+  500:
+    description: Internal server error
+
+security: Basic Auth

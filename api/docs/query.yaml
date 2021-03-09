@@ -1,0 +1,23 @@
+Get audio files
+---
+routes:
+  Get all songs: /api/v1/get_audio_files?audioFileType=song
+  Get single song file: /api/v1/get_audio_file?audioFileType=song&audioFileID=<audioFileID>
+
+  Get all audiobooks: /api/v1/get_audio_files?audioFileType=audiobook
+  Get single audiobook: /api/v1/get_audio_file?audioFileType=audiobook&audioFileID=<audioFileID>
+
+  Get all podcasts: /api/v1/get_audio_files?audioFileType=podcast
+  Get single podcast: /api/v1/get_audio_file?audioFileType=podcast&audioFileID=<audioFileID>
+
+responses:
+  200:
+    description: Query successful
+
+  401:
+    description: Not authorized, user does not have permission to access this route
+
+  500:
+    description: Internal server error
+
+security: Public

@@ -1,0 +1,39 @@
+Update audio files
+---
+routes:
+  Update song: /api/v1/update_audio_file?audioFileType=song&audioFileID=<audioFileID>
+    audioFileType: song
+    audioFileMetadata:
+      - name_of_song: string
+      - duration: int
+
+  Update audiobook: /api/v1/update_audio_file?audioFileType=audiobook&audioFileID=<audioFileID>
+    audioFileType: audiobook
+    audioFileMetadata:
+     - title_of_audiobook: string
+     - author_of_title: string
+     - narrator: string
+     - duration: int
+
+  Update podcast: /api/v1/update_audio_file?audioFileType=podcast&audioFileID=<audioFileID>
+    audioFileType: podcast
+    audioFileMetadata:
+     - name_of_podcast: string
+     - duration: int
+     - host: string
+     - participants: array
+
+responses:
+  200:
+    description: Post successful
+
+  400:
+    description: Invalid user inuput
+
+  401:
+    description: Not authorized, user does not have permission to access this route
+
+  500:
+    description: Internal server error
+
+security: Basic Auth
