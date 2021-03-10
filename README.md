@@ -61,7 +61,7 @@ Three audio file types are supported:
 
 ### Application Security:
 
-An API Key is created for the API using the api-credentials CLI tool in development. An API Key is required on specific routes. See URL endpoints below for details <b>remove the require_api decorator on routes to disbale application security in development<b>
+An API Key is created for the API using the api-credentials CLI tool in development. An API Key is required on specific routes. See URL endpoints below for details <b>remove the require_api decorator on routes to disbale application security in development</b>
 
 To generate an API. in the CLI, run:
 
