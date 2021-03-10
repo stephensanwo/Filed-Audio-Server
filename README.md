@@ -1,5 +1,7 @@
 # Audio File API for Filed.com
 
+### Description
+
 Audio File API, is an API that manages the file metadata of an Audio File Server
 
 Three audio file types are supported:
@@ -8,7 +10,7 @@ Three audio file types are supported:
 - Podcast
 - Audiobook
 
-## Built with:
+### Built with:
 
 - Python 3.8
 - Flask 1.1.2
@@ -16,27 +18,27 @@ Three audio file types are supported:
 - Docker
 - See full list of dependencies in requirements.txt
 
-## Installation:
+## Installation (Development):
 
 - clone the repository
 
-  ```git clone >>>
+  ```
+  git clone https://github.com/stephensanwo/Filed-Audio-Server.git
 
   ```
 
-- cd project/
+- cd projectname/
 
 - Create a virtual environment
 
-  ```python3.8 -m venv env
-
+  ```
+  python3.8 -m venv env
   ```
 
 - Activate the virtual environment
 
   ```
   source env/bin/activate
-
   ```
 
 - Install the requirements
@@ -53,11 +55,13 @@ Three audio file types are supported:
 
   ```
 
+- The application will run on localhost://7000
+
 ## Features:
 
 ### Application Security:
 
-An API Key is created for the API using the api-credentials CLI tool. An API Key is required on specific routes. See URL endpoints below for details.
+An API Key is created for the API using the api-credentials CLI tool in development. An API Key is required on specific routes. See URL endpoints below for details <b>remove the require_api decorator on routes to disbale application security in development<b>
 
 To generate an API. in the CLI, run:
 
@@ -73,17 +77,17 @@ Warning and Error logs are collected and stored in request-logs.log file for app
 - Database connection offline, or Internal server errors
 - Unauthorized user trying to access a restricted route (provides the IP)
 
-### Application Features:
-
 ### URL endpoints
 
-| URL Endpoint                                                                 | HTTP Methods | Summary                                                                       |
-| ---------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------- |
-| `api/create`                                                                 | `POST`       | Creates a new Audio File Record                                               |
-| `api/get_audio_file?audioFileType=<audioFileType>`                           | `GET`        | Retrieves all Audio Files for a specific file type (song, podcast, audiobook) |
-| `api/get_audio_file?audioFileType=<audioFileType>&audioFileID=<audioFileID>` | `GET`        | Retrieves a specific Audio File by file type and file ID                      |
+| URL Endpoint                                                                        | HTTP Methods | Summary                                                                       |
+| ----------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------- |
+| `api/create`                                                                        | `POST`       | Creates a new Audio File Record                                               |
+| `api/get_audio_files?audioFileType=<audioFileType>`                                 | `GET`        | Retrieves all Audio Files for a specific file type (song, podcast, audiobook) |
+| `api/get_audio_file?audioFileType=<audioFileType>&audioFileID=<audioFileID>`        | `GET`        | Retrieves a specific Audio File by file type and file ID                      |
+| `/api/v1/update_audio_file?audioFileType=<audioFileType>&audioFileID=<audioFileID>` | `POST`       | Updates the Audio File by file ID and file type                               |
+| `/api/v1/delete_audio_file?audioFileType=<audioFileType>&audioFileID=<audioFileID>` | `POST`       | Deletes specific Audio File by file type and file ID                          |
 
-#### Example -> Create New Song
+#### Example Request Metadata -> Create New Song
 
 ```
 Example body
@@ -138,9 +142,26 @@ Example body
 }
 ```
 
-## Deployement
+See further documentation in docs/,
 
-### Todos
+### Application Testing:
+
+In the project root, run:
+
+```
+python3.8 test.py
+```
+
+## Deployement (Docker Compose, Nginx Web Server, uWSGI Application Server)
+
+In terminal, with docker installed run:
+
+```
+  docker-compose build
+  docker-compose up
+```
+
+## Todos
 
 ## License
 

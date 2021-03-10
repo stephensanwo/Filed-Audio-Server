@@ -2,3 +2,6 @@
 .vscode
 env/
 __pycache__/
+.pytest_cache
+logs/api-credentials
+logs/request-logs
