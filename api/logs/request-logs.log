@@ -1,377 +1,1600 @@
-2021-03-09 07:28:15,906 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py', reloading
-2021-03-09 07:29:27,590 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:29:27] "[35m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 500 -
-2021-03-09 07:29:57,894 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 07:30:00,742 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 07:30:17,330 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 07:33:35,770 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:34:12,060 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:34:17,660 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:34:28,557 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:34:33,346 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:34:50,359 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:35:36,887 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:35:36] "[35m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 500 -
-2021-03-09 07:35:50,865 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/api.py', reloading
-2021-03-09 07:36:17,052 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/api.py', reloading
-2021-03-09 07:37:25,610 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:37:57,181 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:37:57] "[35m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 500 -
-2021-03-09 07:40:19,560 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py', reloading
-2021-03-09 07:40:45,548 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:40:50,262 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:41:25,291 WARNING root: Inernal server error trying to access API: 127.0.0.1
-2021-03-09 07:41:25,293 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:41:25] "[35m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 500 -
-2021-03-09 07:41:50,833 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py', reloading
-2021-03-09 07:41:55,790 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:41:55] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
-2021-03-09 07:42:04,684 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:42:04] "[35m[1mPOST /api/v1/create HTTP/1.1[0m" 500 -
-2021-03-09 07:42:12,289 WARNING root: Unauthorized address trying to use API: 127.0.0.1
-2021-03-09 07:42:12,300 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:42:12] "[31m[1mPOST /api/v1/create HTTP/1.1[0m" 401 -
-2021-03-09 07:45:01,857 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:46:18,382 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:46:40,416 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:46:46,109 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
-2021-03-09 07:52:42,398 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:52:42] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
-2021-03-09 07:53:32,121 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
-2021-03-09 07:54:15,413 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:54:46,009 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:54:46] "[31m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 400 -
-2021-03-09 07:55:01,535 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:55:04,954 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:55:04] "[31m[1mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 400 -
-2021-03-09 07:55:26,406 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/configs.py', reloading
-2021-03-09 07:56:24,256 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:56:25,739 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:56:25] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
-2021-03-09 07:56:54,514 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:56:54] "[31m[1mGET /api/v1/get_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 400 -
-2021-03-09 07:57:03,443 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:57:03] "[31m[1mGET /api/v1/get_audio_file?audioFileType=audiobook&audioFileID=60470a48b95704ef06d9925b HTTP/1.1[0m" 400 -
-2021-03-09 07:57:16,243 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:57:16] "[37mGET /api/v1/get_audio_file?audioFileType=podcast&audioFileID=60470a48b95704ef06d9925b HTTP/1.1[0m" 200 -
-2021-03-09 07:57:24,801 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 07:57:51,562 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/configs.py', reloading
-2021-03-09 07:57:58,261 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/configs.py', reloading
-2021-03-09 07:58:19,290 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 07:59:06,267 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:59:06] "[37mGET /api/v1/get_audio_file?audioFileType=podcast&audioFileID=60470a48b95704ef06d9925b HTTP/1.1[0m" 200 -
-2021-03-09 07:59:10,692 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:59:10] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
-2021-03-09 07:59:15,256 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 07:59:22,472 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 07:59:22] "[37mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 200 -
-2021-03-09 07:59:26,063 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 07:59:47,375 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 08:00:12,803 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 08:00:12] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6046f1766cecdd8f8d74d944 HTTP/1.1[0m" 400 -
-2021-03-09 08:00:30,529 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 08:00:30] "[37mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 200 -
-2021-03-09 08:00:38,722 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 08:10:21,893 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 12:51:53,786 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 12:51:53] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
-2021-03-09 15:34:19,343 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 15:34:19] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
-2021-03-09 15:34:32,101 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 18:41:27,239 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 18:41:27,785 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:08:30,308 ERROR root: Inernal server error trying to access API: 127.0.0.1
-2021-03-09 19:08:30,310 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:08:30] "[35m[1mGET /api/v1/get_audio_files?audioFileType=song HTTP/1.1[0m" 500 -
-2021-03-09 19:09:09,684 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:09:09] "[37mGET /api/v1/get_audio_file?audioFileType=podcast&audioFileID=60470a48b95704ef06d9925b HTTP/1.1[0m" 200 -
-2021-03-09 19:09:28,085 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:09:28,621 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:09:29,403 ERROR root: Inernal server error trying to access API: 127.0.0.1
-2021-03-09 19:09:29,404 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:09:29] "[35m[1mGET /api/v1/get_audio_files?audioFileType=song HTTP/1.1[0m" 500 -
-2021-03-09 19:11:29,713 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:11:29,913 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:11:40,142 ERROR root: Inernal server error trying to access API: 127.0.0.1
-2021-03-09 19:11:40,143 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:11:40] "[35m[1mGET /api/v1/get_audio_files?audioFileType=song HTTP/1.1[0m" 500 -
-2021-03-09 19:12:11,646 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:12:11,904 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:12:35,535 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:12:35,915 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:13:24,631 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:13:24] "[35m[1mGET /api/v1/get_audio_files?audioFileType=song HTTP/1.1[0m" 500 -
-2021-03-09 19:13:32,906 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:13:33,022 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:13:36,232 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:13:36] "[35m[1mGET /api/v1/get_audio_files?audioFileType=song HTTP/1.1[0m" 500 -
-2021-03-09 19:13:57,780 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:13:58,200 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:14:01,104 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:14:01] "[35m[1mGET /api/v1/get_audio_files?audioFileType=song HTTP/1.1[0m" 500 -
-2021-03-09 19:14:23,835 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:14:24,273 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:14:25,696 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:14:25] "[37mGET /api/v1/get_audio_files?audioFileType=song HTTP/1.1[0m" 200 -
-2021-03-09 19:14:45,139 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:14:45,518 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:15:12,194 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:15:12,558 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:15:19,956 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:15:20,443 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:16:51,850 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:16:52,178 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:17:03,777 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:17:04,296 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:17:31,985 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:17:32,387 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:17:47,978 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:17:48,458 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:18:54,665 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:18:54,798 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:49:58,666 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:49:59,161 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:50:42,073 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:50:42,408 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:50:53,913 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:50:53,960 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:51:08,571 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:51:09,093 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:51:35,816 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:51:36,215 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:51:44,760 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:51:44,835 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:51:53,352 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:51:53,403 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:52:01,845 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:52:01] "[37mGET /api/v1/get_audio_files?audioFileType=audiobook HTTP/1.1[0m" 200 -
-2021-03-09 19:52:07,983 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:52:07] "[37mGET /api/v1/get_audio_files?audioFileType=song HTTP/1.1[0m" 200 -
-2021-03-09 19:52:14,521 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 19:52:14] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
-2021-03-09 19:54:19,565 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:54:19,647 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:54:33,238 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:54:33,284 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:55:42,498 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 19:55:42,599 INFO werkzeug:  * Restarting with stat
-2021-03-09 19:57:01,481 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 19:57:01,958 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:03:04,917 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:04:14,298 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:04:24,061 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:04:35,128 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:04:42,731 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:04:50,751 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:05:03,756 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:05:38,578 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:05:38] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
-2021-03-09 20:05:45,840 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:05:45] "[37mGET /api/v1/get_audio_files?audioFileType=song HTTP/1.1[0m" 200 -
-2021-03-09 20:05:51,158 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:05:51] "[37mGET /api/v1/get_audio_files?audioFileType=audiobook HTTP/1.1[0m" 200 -
-2021-03-09 20:07:05,683 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:07:05,819 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:09:54,625 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:09:54,908 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:21:07,088 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:21:07] "[31m[1mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=60470a48b95704ef06d9925b HTTP/1.1[0m" 400 -
-2021-03-09 20:21:44,514 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:21:44] "[31m[1mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 400 -
-2021-03-09 20:22:14,357 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:22:14] "[31m[1mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 400 -
-2021-03-09 20:23:02,866 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:23:03,408 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:23:04,688 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:23:04] "[35m[1mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 500 -
-2021-03-09 20:26:12,337 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:26:12,804 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:26:14,847 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:26:14] "[35m[1mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 500 -
-2021-03-09 20:27:06,983 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:27:07,200 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:27:08,350 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:27:08] "[35m[1mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 500 -
-2021-03-09 20:27:15,759 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:27:16,298 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:27:37,866 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:27:38,261 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:27:42,172 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:27:42] "[31m[1mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 400 -
-2021-03-09 20:27:46,727 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:27:47,234 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:27:50,740 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:27:51,272 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:27:51,871 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:27:51] "[37mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 200 -
-2021-03-09 20:29:47,036 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:29:47,529 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:29:48,714 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:29:48] "[31m[1mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 400 -
-2021-03-09 20:30:00,072 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:30:00,633 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:30:01,390 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:30:01] "[35m[1mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 500 -
-2021-03-09 20:30:10,035 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:30:10,561 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:30:14,310 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:30:14] "[35m[1mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 500 -
-2021-03-09 20:30:58,400 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:30:58,619 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:30:59,337 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:30:59] "[37mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 200 -
-2021-03-09 20:31:10,058 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:31:10,540 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:32:44,037 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:32:44,347 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:32:45,793 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:32:45] "[37mGET /api/v1/get_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 200 -
-2021-03-09 20:33:01,130 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:33:01,614 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:33:39,384 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:33:39,626 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:34:03,222 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:34:03,580 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:34:22,551 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:34:22] "[31m[1mGET /api/v1/get_audio_file?audioFileType=podcast&audioFileID=6046f26a4b09a4463e43742e HTTP/1.1[0m" 400 -
-2021-03-09 20:34:25,796 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:34:25] "[31m[1mGET /api/v1/get_audio_file?audioFileType=podcast&audioFileID=6046f26a4b09a4463e43742e HTTP/1.1[0m" 400 -
-2021-03-09 20:34:29,173 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:34:29,515 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:34:31,865 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:34:31] "[31m[1mGET /api/v1/get_audio_file?audioFileType=podcast&audioFileID=6046f26a4b09a4463e43742e HTTP/1.1[0m" 400 -
-2021-03-09 20:34:45,162 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:34:45,229 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:34:46,937 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:34:46] "[37mGET /api/v1/get_audio_file?audioFileType=podcast&audioFileID=6046f26a4b09a4463e43742e HTTP/1.1[0m" 200 -
-2021-03-09 20:35:19,184 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:35:19,489 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:35:40,059 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:35:40,468 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:36:09,115 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:36:09,440 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:36:47,305 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:36:47,564 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:36:55,305 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:36:55] "[37mGET /api/v1/get_audio_files?audioFileType=audiobook HTTP/1.1[0m" 200 -
-2021-03-09 20:37:23,357 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:37:23,656 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:37:38,203 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 20:37:38,654 INFO werkzeug:  * Restarting with stat
-2021-03-09 20:37:41,747 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:37:41] "[37mGET /api/v1/get_audio_files?audioFileType=song HTTP/1.1[0m" 200 -
-2021-03-09 20:37:46,333 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:37:46] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
-2021-03-09 20:37:55,139 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:37:55] "[37mGET /api/v1/get_audio_file?audioFileType=podcast&audioFileID=6046f26a4b09a4463e43742e HTTP/1.1[0m" 200 -
-2021-03-09 20:38:20,335 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 20:38:20] "[37mGET /api/v1/get_audio_file?audioFileType=audiobook&audioFileID=6046fb47278e97c72a6633b7 HTTP/1.1[0m" 200 -
-2021-03-09 20:38:26,535 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/query.py', reloading
-2021-03-09 20:38:26,713 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:54:42,739 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
-2021-03-09 21:54:43,171 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:56:06,664 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 21:56:07,138 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:56:21,678 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 21:56:22,183 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:56:38,656 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 21:56:39,086 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:56:55,677 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 21:56:56,131 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:57:54,177 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
-2021-03-09 21:57:54,308 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:58:06,763 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
-2021-03-09 21:58:07,209 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:58:22,522 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 21:58:22] "[31m[1mPOST /api/v1/create HTTP/1.1[0m" 400 -
-2021-03-09 21:58:31,795 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 21:58:32,169 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:58:33,604 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
-2021-03-09 21:58:33,738 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:58:34,976 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 21:58:34] "[31m[1mPOST /api/v1/create HTTP/1.1[0m" 400 -
-2021-03-09 21:59:00,434 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 21:59:00,776 INFO werkzeug:  * Restarting with stat
-2021-03-09 21:59:05,377 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 21:59:05] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
-2021-03-09 22:00:35,284 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:00:35,648 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:00:37,948 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:00:38,489 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:00:40,740 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:00:40] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
-2021-03-09 22:01:01,100 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:01:01,496 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:01:47,388 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:01:47,592 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:04:00,530 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:04:00,606 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:04:25,164 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:04:25,565 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:04:33,946 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:04:34,428 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:05:24,341 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
-2021-03-09 22:05:24,527 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:05:53,159 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
-2021-03-09 22:05:53,469 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:06:10,324 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:06:10] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
-2021-03-09 22:07:22,898 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:07:23,283 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:08:27,413 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:08:27,532 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:11:00,730 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:11:00] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
-2021-03-09 22:11:00,746 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
-2021-03-09 22:11:01,166 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:20:48,337 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:20:48,857 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:22:35,588 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:22:35,937 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:23:26,249 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:23:26,489 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:23:40,958 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:23:41,411 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:23:54,868 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:23:55,321 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:24:04,719 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:24:05,200 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:25:19,417 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:25:19,932 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:25:25,364 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:25:25,435 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:25:56,238 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:25:56] "[35m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 500 -
-2021-03-09 22:26:00,188 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:26:00,559 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:26:01,962 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:26:01] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 400 -
-2021-03-09 22:26:22,242 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:26:22] "[37mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 200 -
-2021-03-09 22:26:29,232 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:26:29] "[37mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 200 -
-2021-03-09 22:26:58,282 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:26:58] "[35m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b HTTP/1.1[0m" 500 -
-2021-03-09 22:27:15,447 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:27:15] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b6 HTTP/1.1[0m" 400 -
-2021-03-09 22:27:21,179 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:27:21] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b6 HTTP/1.1[0m" 400 -
-2021-03-09 22:27:24,825 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:27:24] "[35m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b HTTP/1.1[0m" 500 -
-2021-03-09 22:27:40,457 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:27:40,706 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:27:45,197 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:27:45] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b HTTP/1.1[0m" 400 -
-2021-03-09 22:27:49,328 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:27:49] "[37mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 200 -
-2021-03-09 22:27:54,981 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:27:54] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b6 HTTP/1.1[0m" 400 -
-2021-03-09 22:28:00,420 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:28:00] "[37mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 200 -
-2021-03-09 22:28:59,097 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:28:59,593 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:39:59,440 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:39:59,963 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:40:22,537 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:40:22,922 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:40:40,407 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:40:40,835 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:40:54,273 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:40:54,743 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:41:23,464 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:41:23,815 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:41:34,340 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:41:34] "[37mPOST /api/v1/update_audio_file?audioFileType=podcast&audioFileID=6046f26a4b09a4463e43742e HTTP/1.1[0m" 200 -
-2021-03-09 22:41:42,616 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:41:42] "[37mPOST /api/v1/update_audio_file?audioFileType=podcast&audioFileID=6046f26a4b09a4463e43742e HTTP/1.1[0m" 200 -
-2021-03-09 22:42:04,657 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:42:04,924 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:42:33,666 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:42:34,056 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:42:37,400 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:42:37,923 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:42:44,268 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:42:44,778 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:42:53,147 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:42:53,649 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:43:02,044 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:43:02,533 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:43:16,981 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:43:17,424 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:43:42,004 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:43:42,376 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:44:00,460 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:44:00] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 400 -
-2021-03-09 22:44:49,545 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py', reloading
-2021-03-09 22:44:49,651 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:44:52,126 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:44:52] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 400 -
-2021-03-09 22:44:53,644 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:44:53] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 400 -
-2021-03-09 22:44:56,154 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:44:56,672 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:45:00,017 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:45:00] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01 HTTP/1.1[0m" 400 -
-2021-03-09 22:45:14,275 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:45:14] "[37mPOST /api/v1/update_audio_file?audioFileType=audiobook&audioFileID=6046fb47278e97c72a6633b7 HTTP/1.1[0m" 200 -
-2021-03-09 22:45:21,423 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 22:45:21] "[37mPOST /api/v1/update_audio_file?audioFileType=audiobook&audioFileID=6046fb47278e97c72a6633b7 HTTP/1.1[0m" 200 -
-2021-03-09 22:52:32,946 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:52:33,163 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:52:38,646 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:52:38,709 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:52:46,088 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 22:52:46,582 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:55:12,675 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 22:55:13,154 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:55:58,037 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 22:55:58,262 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:56:05,654 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 22:56:06,140 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:58:47,899 INFO werkzeug:  * Restarting with stat
-2021-03-09 22:59:58,067 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 22:59:58,124 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:03:05,912 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 23:03:06,072 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:03:19,903 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 23:03:19] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6046f1766cecdd8f8d74d944 HTTP/1.1[0m" 400 -
-2021-03-09 23:03:34,540 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 23:03:34] "[37mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6046fb40278e97c72a6633b5 HTTP/1.1[0m" 200 -
-2021-03-09 23:05:17,988 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 23:05:18,055 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:05:23,505 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 23:05:23,557 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:05:29,901 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 23:05:30,408 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:05:54,293 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 23:05:54] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=podcast&audioFileID=6046fb44278e97c72a6633b6 HTTP/1.1[0m" 400 -
-2021-03-09 23:06:19,312 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 23:06:19,476 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:07:05,407 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 23:07:05] "[37mPOST /api/v1/delete_audio_file?audioFileType=podcast&audioFileID=6046fb44278e97c72a6633b6 HTTP/1.1[0m" 200 -
-2021-03-09 23:09:35,264 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
-2021-03-09 23:09:35,335 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:10:01,942 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 23:10:02,285 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:10:04,640 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 23:10:05,168 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:10:14,551 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 23:10:15,028 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:11:01,914 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 23:11:02,155 INFO werkzeug:  * Restarting with stat
-2021-03-09 23:11:22,650 INFO werkzeug: 127.0.0.1 - - [09/Mar/2021 23:11:22] "[37mPOST /api/v1/delete_audio_file?audioFileType=audiobook&audioFileID=6046fcd295184fd26e82cac2 HTTP/1.1[0m" 200 -
-2021-03-09 23:11:27,974 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/delete.py', reloading
-2021-03-09 23:11:28,294 INFO werkzeug:  * Restarting with stat
+2021-03-10 09:53:07,810 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 09:53:07] "[33mGET / HTTP/1.1[0m" 404 -
+2021-03-10 10:03:02,620 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 10:03:02] "[37mGET /api/v1/get_audio_files?audioFileType=podcast HTTP/1.1[0m" 200 -
+2021-03-10 11:16:18,381 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 11:16:18] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
+2021-03-10 11:17:52,330 ERROR api: Exception on /api/v1/create [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 11:19:37,387 ERROR api: Exception on /api/v1/create [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 11:21:53,368 ERROR api: Exception on /api/v1/create [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 11:22:26,740 ERROR api: Exception on /api/v1/create [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 11:22:47,998 ERROR api: Exception on /api/v1/create [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 11:23:09,192 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 11:23:09] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
+2021-03-10 11:26:21,019 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-10 11:26:21,413 INFO werkzeug:  * Restarting with stat
+2021-03-10 11:26:51,133 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-10 11:26:51,454 INFO werkzeug:  * Restarting with stat
+2021-03-10 11:40:33,492 ERROR api: Exception on /api/v1/create [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 11:41:09,061 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-10 11:41:09,370 INFO werkzeug:  * Restarting with stat
+2021-03-10 11:41:36,023 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-10 11:41:36,362 INFO werkzeug:  * Restarting with stat
+2021-03-10 11:41:38,623 ERROR api: Exception on /api/v1/create [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 11:42:01,225 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 11:42:01] "[35m[1mPOST /api/v1/create HTTP/1.1[0m" 500 -
+2021-03-10 11:43:05,018 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 11:43:23,685 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 12:16:27,561 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 12:36:00,868 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 12:36:18,819 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 12:36:43,700 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 12:36:43] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
+2021-03-10 12:36:51,998 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 12:36:51] "[31m[1mPOST /api/v1/create HTTP/1.1[0m" 400 -
+2021-03-10 12:37:40,502 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 12:39:11,285 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-10 12:39:11,651 INFO werkzeug:  * Restarting with stat
+2021-03-10 12:39:17,030 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-10 12:39:17,541 INFO werkzeug:  * Restarting with stat
+2021-03-10 12:39:23,906 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-10 12:39:24,411 INFO werkzeug:  * Restarting with stat
+2021-03-10 12:39:35,826 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-10 12:39:36,300 INFO werkzeug:  * Restarting with stat
+2021-03-10 12:40:29,270 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 12:40:29,474 INFO werkzeug:  * Restarting with stat
+2021-03-10 12:40:31,790 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/create.py', reloading
+2021-03-10 12:40:31,873 INFO werkzeug:  * Restarting with stat
+2021-03-10 12:49:23,116 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:00:08,039 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:01:38,651 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:02:10,267 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:07:04,432 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:07:23,968 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:07:24,510 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:07:50,961 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:07:51,450 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:08:09,976 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:08:09] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 400 -
+2021-03-10 13:08:18,924 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:08:18] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 400 -
+2021-03-10 13:08:22,620 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:08:22] "[37mPOST /api/v1/update_audio_file?audioFileType=audiobook&audioFileID=6046fb47278e97c72a6633b7 HTTP/1.1[0m" 200 -
+2021-03-10 13:08:29,391 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:08:29] "[37mPOST /api/v1/update_audio_file?audioFileType=podcast&audioFileID=6046f26a4b09a4463e43742e HTTP/1.1[0m" 200 -
+2021-03-10 13:08:36,119 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:08:36] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65 HTTP/1.1[0m" 400 -
+2021-03-10 13:08:52,656 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:08:52] "[37mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fc3b278e97c72a6633b8 HTTP/1.1[0m" 200 -
+2021-03-10 13:09:02,656 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:09:03,181 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:09:52,172 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:09:52,687 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:10:11,064 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:10:11,553 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:11:12,460 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:11:12,976 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:11:23,855 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:11:23] "[37mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fc3b278e97c72a6633b8 HTTP/1.1[0m" 200 -
+2021-03-10 13:11:55,666 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:11:56,153 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:13:30,762 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:13:31,266 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:13:31,500 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:13:55,516 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:13:55] "[37mPOST /api/v1/update_audio_file?audioFileType=podcast&audioFileID=6046fcc995184fd26e82cac1 HTTP/1.1[0m" 200 -
+2021-03-10 13:14:33,868 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:14:34,354 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:14:34,583 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:15:12,694 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:15:13,184 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:15:13,414 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:16:33,080 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:16:33] "[37mPOST /api/v1/update_audio_file?audioFileType=podcast&audioFileID=6046fcc995184fd26e82cac1 HTTP/1.1[0m" 200 -
+2021-03-10 13:16:35,637 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:16:35] "[37mPOST /api/v1/update_audio_file?audioFileType=podcast&audioFileID=6046fcc995184fd26e82cac1 HTTP/1.1[0m" 200 -
+2021-03-10 13:16:36,744 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:16:36] "[37mPOST /api/v1/update_audio_file?audioFileType=podcast&audioFileID=6046fcc995184fd26e82cac1 HTTP/1.1[0m" 200 -
+2021-03-10 13:16:37,769 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:16:37] "[37mPOST /api/v1/update_audio_file?audioFileType=podcast&audioFileID=6046fcc995184fd26e82cac1 HTTP/1.1[0m" 200 -
+2021-03-10 13:17:24,451 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:17:24,938 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:17:25,166 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:17:34,668 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:17:35,152 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:17:35,383 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:22:08,012 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:22:08,494 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:22:08,720 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:23:03,565 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:23:03] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
+2021-03-10 13:23:58,556 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:23:59,030 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:23:59,258 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:24:52,480 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:24:52,970 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:24:53,200 ERROR api: Exception on /api/v1/update_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 51, in decorated_function
+    return function(*args, **kwargs)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/routes/update.py", line 46, in update_audio_file
+    audioFileType = req["audioFileType"]
+TypeError: 'NoneType' object is not subscriptable
+2021-03-10 13:26:52,566 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:26:59,203 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:32:27,749 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:32:28,016 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:32:28,019 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:32:28,021 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:32:43,460 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:32:43,753 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:32:43,756 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:32:43,758 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:35:54,527 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:35:54,529 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:35:54,531 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:40:35,029 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:40:35,285 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:40:35,288 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:40:35,289 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:41:44,630 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:42:08,867 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:42:09,124 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:42:09,127 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:42:09,129 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:44:55,489 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:44:55,739 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:44:55,741 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:44:55,743 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:45:23,862 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:45:24,133 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:45:24,135 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:45:24,136 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:46:56,639 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:46:56,901 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:46:56,904 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:46:56,905 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:48:01,764 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:48:02,022 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:48:02,026 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:48:02,027 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:48:15,791 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:48:15] "[37mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6046fc3b278e97c72a6633b8 HTTP/1.1[0m" 200 -
+2021-03-10 13:48:47,403 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:48:47,665 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:48:47,667 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:48:47,669 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:50:35,308 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:50:35,536 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:50:35,539 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:50:35,541 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:50:59,627 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:50:59] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6046fcc995184fd26e82cac1 HTTP/1.1[0m" 400 -
+2021-03-10 13:52:03,651 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:52:03,885 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:52:03,887 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:52:03,889 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:52:22,973 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:52:22] "[37mPOST /api/v1/delete_audio_file?audioFileType=audiobook&audioFileID=6048a221ee66022405ab6498 HTTP/1.1[0m" 200 -
+2021-03-10 13:53:57,328 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:53:57,555 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:53:57,557 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:53:57,558 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:54:32,493 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:54:32] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6046fcc995184fd26e82cac1 HTTP/1.1[0m" 400 -
+2021-03-10 13:55:31,517 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:55:31,749 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:55:31,751 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:55:31,752 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:56:24,168 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:56:24] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6046fcc995184fd26e82cac1 HTTP/1.1[0m" 400 -
+2021-03-10 13:56:38,119 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 13:56:38] "[37mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6046fc3b278e97c72a6633b8 HTTP/1.1[0m" 200 -
+2021-03-10 13:57:36,234 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:57:36,466 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:57:36,469 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:57:36,470 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:57:53,937 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 13:57:54,170 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:57:54,172 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:57:54,173 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 13:59:47,663 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 14:00:04,752 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 14:00:04,986 ERROR api: Exception on /api/v1/delete_audio_file [POST]
+Traceback (most recent call last):
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py", line 47, in decorated_function
+    api_key = request.headers["api_key"]
+  File "/Users/stephensanwo/Documents/Filed-Audio-Server/api/env/lib/python3.8/site-packages/werkzeug/datastructures.py", line 1463, in __getitem__
+    return _unicodify_header_value(self.environ["HTTP_" + key])
+KeyError: 'HTTP_API_KEY'
+2021-03-10 14:01:56,608 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 14:03:06,316 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 14:04:33,493 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 14:08:01,949 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 14:08:25,789 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 14:14:00,567 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 14:16:42,568 WARNING root: Unauthorized address trying to use API: 127.0.0.1
