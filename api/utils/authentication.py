@@ -1,37 +1,37 @@
 from flask import Blueprint, jsonify, make_response, request, abort
 from functools import wraps
-import bcrypt
 import logging
 from database.AuthSchema import Auth
 import logging
 
 
-def vaidate_api_credentials(api_key, api_client):
+def vaidate_api_credentials(api_key):
     """
     Match API key
     @param api_key: API key from request
     @param api_client: API Client from request.
     @return: boolean
     """
-    if api_key is None or api_client is None:
-
+    if api_key is None:
         return False
+
     try:
         # Find the client ID provided in the Auth DB
-        client = Auth.objects(client_email=api_client).get()
+        client = Auth.objects(api_key=api_key).get()
+        # Get the API key from the DB
+        api_key_db = client.api_key
 
-        # Get the Hashed API key for the client_id from the DB and unhash with bcrypt
-        hashed_api_key = client.api_key
-        user = client.client_email
     except:
         return False
 
     ip = request.remote_addr
-    if bcrypt.checkpw(api_key.encode("utf-8"), hashed_api_key.encode("utf-8")):
 
+    if api_key_db == api_key:
         return True
+
     logging.error(
         f"API Key Authentication failed, Wrong API Key provided by user: {ip}")
+
     return False
 
 
@@ -44,10 +44,9 @@ def require_apikey(function):
 
     @wraps(function)
     def decorated_function(*args, **kwargs):
-        api_key = request.headers["api_key"]
-        api_client = request.headers["api_client"]
+        api_key = request.args["api_key"]
 
-        if vaidate_api_credentials(api_key, api_client):
+        if vaidate_api_credentials(api_key):
             return function(*args, **kwargs)
         else:
             logging.warning(

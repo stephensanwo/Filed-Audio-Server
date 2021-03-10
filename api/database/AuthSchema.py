@@ -1,8 +1,22 @@
 from mongoengine import *
 from datetime import datetime
+import os
 
+# dev
 
-connect("filed-audio-api-dev-db", host="localhost", port=27017)
+if os.getenv("FLASK_ENV") == "development":
+    connect("filed-audio-api-dev-db", host="localhost", port=27017)
+
+else:
+    connect(
+        db="filed-audio-api-db",
+        host='database',
+        port=27017,
+        username="root",
+        password="admin",
+        authentication_source="admin",
+        connect=False
+    )
 
 
 class Auth(Document):

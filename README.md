@@ -45,14 +45,12 @@ Three audio file types are supported:
 
   ```
   pip install -r requirements.txt
-
   ```
 
 - Run the application
 
   ```
   flask run
-
   ```
 
 - The application will run on localhost://7000
@@ -67,7 +65,6 @@ To generate an API. in the CLI, run:
 
 ```
 python api-credentials.py john.doe@email.com
-
 ```
 
 ### Application Monitoring
@@ -159,6 +156,20 @@ In terminal, with docker installed run:
 ```
   docker-compose build
   docker-compose up
+```
+
+Create API Credentials in Production
+
+cd into the API container
+
+```
+docker exec -it api bash
+```
+
+exceute the API Credentials CLI command
+
+```
+python3.8 api-credentials.py john.doe@email.com
 ```
 
 ## Todos

@@ -1,5 +1,4 @@
 import sys
-import bcrypt
 import logging
 import uuid
 from database.AuthSchema import Auth
@@ -29,9 +28,6 @@ def create_api_credentials():
         """
     )
     logger.info(f"API credentials generated for {client_email}")
-
-    # Hashing API credentials for the DB
-    api_key = bcrypt.hashpw(api_key.encode("utf-8"), bcrypt.gensalt())
 
     api_credentials = Auth(
         client_email=client_email, api_key=api_key,

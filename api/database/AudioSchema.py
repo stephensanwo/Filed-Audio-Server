@@ -1,32 +1,22 @@
 from mongoengine import *
 from datetime import datetime
 from flask import abort
-import api
 import os
 
 
-if os.getenv("FLASK_ENV") == 'development':
-    try:
-        connect("filed-audio-api-dev-db",
-                host="localhost",
-                port=27017)
-    except:
-        abort(500, "Internal Server Error")
+if os.getenv("FLASK_ENV") == "development":
+    connect("filed-audio-api-dev-db", host="localhost", port=27017)
 
-elif os.getenv("FLASK_ENV") == 'production':
-    try:
-        db = os.getenv("DB_NAME")
-        connect(
-            db=db,
-            host='mongo',
-            port=27017,
-            username="root",
-            password="root",
-            authentication_source="admin",
-            connect=False
-        )
-    except:
-        abort(500, "Internal Server Error")
+else:
+    connect(
+        db="filed-audio-api-db",
+        host='database',
+        port=27017,
+        username="root",
+        password="admin",
+        authentication_source="admin",
+        connect=False
+    )
 
 
 class Song(Document):

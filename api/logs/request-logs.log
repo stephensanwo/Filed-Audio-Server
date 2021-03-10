@@ -1,0 +1,87 @@
+2021-03-10 16:14:58,981 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 16:14:58] "[37mPOST /api/v1/create HTTP/1.1[0m" 200 -
+2021-03-10 16:18:01,730 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 16:18:01,895 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:36:46,800 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/api.py', reloading
+2021-03-10 16:36:47,267 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:37:35,339 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 16:37:35,627 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:37:59,278 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 16:37:59,606 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:38:03,061 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 16:38:03,131 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:38:13,614 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 16:38:14,100 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:38:16,403 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 16:38:16,934 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:45:21,592 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 16:45:21,898 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:45:34,462 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 16:45:34,983 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:45:44,369 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 16:45:44,865 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:46:25,664 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 16:46:25,936 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:46:30,360 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 16:46:30,444 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:50:34,890 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 16:50:35,087 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:50:37,526 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 16:50:37,681 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:52:47,096 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 16:52:47,632 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:53:07,117 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 16:53:07,540 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:53:10,936 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 16:53:11,472 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:59:04,315 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 16:59:04,742 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:59:10,206 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 16:59:10,273 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:59:22,720 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 16:59:23,193 INFO werkzeug:  * Restarting with stat
+2021-03-10 16:59:30,917 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 16:59:31,412 INFO werkzeug:  * Restarting with stat
+2021-03-10 17:03:08,828 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 17:03:08,999 INFO werkzeug:  * Restarting with stat
+2021-03-10 17:03:12,456 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 17:03:12,565 INFO werkzeug:  * Restarting with stat
+2021-03-10 17:03:14,871 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 17:03:15,419 INFO werkzeug:  * Restarting with stat
+2021-03-10 17:03:50,167 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 17:03:50,502 INFO werkzeug:  * Restarting with stat
+2021-03-10 17:03:53,907 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 17:03:53,994 INFO werkzeug:  * Restarting with stat
+2021-03-10 17:06:09,021 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 17:06:09,526 INFO werkzeug:  * Restarting with stat
+2021-03-10 17:06:16,052 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 17:06:16,160 INFO werkzeug:  * Restarting with stat
+2021-03-10 17:11:10,323 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AuthSchema.py', reloading
+2021-03-10 17:11:10,488 INFO werkzeug:  * Restarting with stat
+2021-03-10 17:11:15,991 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/database/AudioSchema.py', reloading
+2021-03-10 17:11:16,078 INFO werkzeug:  * Restarting with stat
+2021-03-10 19:35:01,033 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:35:01] "[35m[1mPOST /api/v1/create?api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 500 -
+2021-03-10 19:35:25,631 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py', reloading
+2021-03-10 19:35:25,965 INFO werkzeug:  * Restarting with stat
+2021-03-10 19:35:32,342 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py', reloading
+2021-03-10 19:35:32,848 INFO werkzeug:  * Restarting with stat
+2021-03-10 19:35:35,529 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:35:35] "[37mPOST /api/v1/create?api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 200 -
+2021-03-10 19:35:40,255 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:35:40] "[37mPOST /api/v1/create?api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 200 -
+2021-03-10 19:35:47,535 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 19:35:47,546 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:35:47] "[31m[1mPOST /api/v1/create?api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb61 HTTP/1.1[0m" 401 -
+2021-03-10 19:35:53,679 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:35:53] "[37mPOST /api/v1/create?api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 200 -
+2021-03-10 19:35:58,659 WARNING root: Unauthorized address trying to use API: 127.0.0.1
+2021-03-10 19:35:58,667 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:35:58] "[31m[1mPOST /api/v1/create?api_key= HTTP/1.1[0m" 401 -
+2021-03-10 19:36:03,017 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:36:03] "[37mPOST /api/v1/create?api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 200 -
+2021-03-10 19:36:52,198 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:36:52] "[37mPOST /api/v1/create?api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 200 -
+2021-03-10 19:37:05,144 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:37:05] "[37mPOST /api/v1/create?api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 200 -
+2021-03-10 19:37:27,426 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:37:27] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=song&audioFileID=6046f1766cecdd8f8d74d944&api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 400 -
+2021-03-10 19:37:38,813 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:37:38] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=podcast&audioFileID=6046f2724b09a4463e43742f&api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 400 -
+2021-03-10 19:38:16,119 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:38:16] "[31m[1mPOST /api/v1/delete_audio_file?audioFileType=audiobook&audioFileID=6045229ea949784fbfc88e01&api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 400 -
+2021-03-10 19:38:34,228 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:38:34] "[31m[1mPOST /api/v1/update_audio_file?audioFileType=song&audioFileID=6045409e64d7463f32c49a65&api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 400 -
+2021-03-10 19:38:49,895 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:38:49] "[35m[1mPOST /api/v1/update_audio_file?audioFileType=audiobook&audioFileID=6046fb47278e97c72a6633b7 HTTP/1.1[0m" 500 -
+2021-03-10 19:39:00,159 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:39:00] "[37mPOST /api/v1/update_audio_file?audioFileType=audiobook&audioFileID=6046fb47278e97c72a6633b7&api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 200 -
+2021-03-10 19:39:18,946 INFO werkzeug: 127.0.0.1 - - [10/Mar/2021 19:39:18] "[37mPOST /api/v1/update_audio_file?audioFileType=podcast&audioFileID=6046f26a4b09a4463e43742e&api_key=5aacefbb-4884-42e8-b19e-ff36e70fbb60 HTTP/1.1[0m" 200 -
+2021-03-10 19:40:19,790 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py', reloading
+2021-03-10 19:40:20,188 INFO werkzeug:  * Restarting with stat
+2021-03-10 19:40:45,866 INFO werkzeug:  * Detected change in '/Users/stephensanwo/Documents/Filed-Audio-Server/api/utils/authentication.py', reloading
+2021-03-10 19:40:46,308 INFO werkzeug:  * Restarting with stat
